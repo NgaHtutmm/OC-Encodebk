@@ -23,9 +23,9 @@ except ImportError:
 # ==========================================
 # ⚠️ Configurations & API Setup
 # ==========================================
-API_ID = 7978114
-API_HASH = "5f7839feeba133497f24acfd005ef2ec"
-BOT_TOKEN = "8698443493:AAERfS3QsJb8dkl-6NlsDn5JvwT5viLVIZY" # ⚠️ အစ်ကို့ Bot Token ကို ပြန်ထည့်ပါ
+API_ID = 30102146
+API_HASH = "b6b9b31d71f7d9ce377f2de1d6a6126b"
+BOT_TOKEN = "8580954031:AAESA8LXsnskl1oytajwye5b-Y-XGt3EXm8" # ⚠️ အစ်ကို့ Bot Token ကို ပြန်ထည့်ပါ
 
 # 🚀 DeepSeek API Setup
 DEEPSEEK_API_KEY = "sk-53d47c2226a444f38c2a029bc78cec8b" # ⚠️ အစ်ကို့ DeepSeek Key ကို ပြန်ထည့်ပါ
