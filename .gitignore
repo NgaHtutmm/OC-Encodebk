@@ -1,15 +1,6 @@
-# Telegram Session Files (Very Important to ignore)
+__pycache__/
+downloads/
 *.session
 *.session-journal
-
-# Python Cache
-__pycache__/
-
-# Downloads and Large Media Files
-downloads/
 *.mp4
-*.jpg
-*.png
-
-# Logs and Errors
 unknown_errors.txt
