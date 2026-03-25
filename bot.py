@@ -1237,7 +1237,7 @@ async def process_everything(client, user_id, ud, job_id):
                 filters_list.append(f"[{current_v}]subtitles={s_path}{sub_style}[{current_v}_sub]")
                 current_v = f"{current_v}_sub"
 
-            filters_list.append(f"[{current_v}]drawtext=fontfile={FONT_BOLD_FILE}:text='t.me/ocadults':x=30:y=30:fontsize=36:fontcolor=yellow:borderw=2:bordercolor=black,drawtext=fontfile={FONT_BOLD_FILE}:text='ocadults.net':x=w-tw-30:y=30:fontsize=36:fontcolor=yellow:borderw=2:bordercolor=black[main_v_final]")
+            filters_list.append(f"[{current_v}]drawtext=fontfile={FONT_BOLD_FILE}:text='t.me/kadultcn':x=30:y=30:fontsize=36:fontcolor=yellow:borderw=2:bordercolor=black,drawtext=fontfile={FONT_BOLD_FILE}:text='@kadultcn':x=w-tw-30:y=30:fontsize=36:fontcolor=yellow:borderw=2:bordercolor=black[main_v_final]")
             
             if main_has_audio: filters_list.append(f"[{idx_main}:a:0]aresample=48000:async=1[main_a_final]")
             else: filters_list.append(f"anullsrc=r=48000:cl=stereo:d={actual_duration:.3f}[main_a_final]")
